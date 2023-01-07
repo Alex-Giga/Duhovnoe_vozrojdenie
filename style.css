@@ -1,0 +1,97 @@
+body {
+    width: 100%;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    margin: 0px 166px;
+}
+
+.header {
+    background-image: url(bg.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.header-line {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-item {
+    color: rgb(207, 248, 26);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 22px;
+
+    margin-right: 25px;
+
+    transition: color 0.3s linear;
+}
+
+.nav-item:hover {
+    font-size: 27px;
+    transition: 0.5s;
+    color: #1d10c9;
+}
+
+
+.cart {s
+    position: relative;
+
+    border-right: 1px solid #FFFFFF;
+    padding-right: 10px;
+    height: 50px;
+}
+
+.cart-img {
+    position: absolute;
+    top: 18px;
+    right: 7px;
+}
+
+.youtube_chanel{
+    flex-direction: flex;
+}
+.num {
+    color: rgb(23, 206, 78);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+
+    transition: color 0.3s linear;
+}
+
+.num:hover {
+    color: #e91010;
+}
+
+.phone-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.phone-holder {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    background-color: #FF7400;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-weight: 700;
+
+    transition: background-color 0.2s linear;
+}
+
+.button:hover {
+    background-color: #894b17;
+}
